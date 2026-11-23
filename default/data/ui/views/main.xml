@@ -134,7 +134,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica N
       </div>
       <div class="ab-hero-actions">
         <a href="https://ableu.ableversity.com/course/splunk-user?coupon=Ableversity4Splunk&amp;email=$userEmail$" class="ab-btn ab-btn-glow" target="_blank">🚀 Start Free Course</a>
-        <a href="https://ableversity.com/courses?email=$userEmail$" class="ab-btn ab-btn-primary" target="_blank">📖 Browse All Courses</a>
+        <a href="https://ableversity.com/splunk-fundamentals-training-course/?email=$userEmail$" class="ab-btn ab-btn-primary" target="_blank">📖 Browse All Courses</a>
       </div>
     </div>
   </div>
