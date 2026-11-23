@@ -1,0 +1,27 @@
+<nav>
+  <view name="main" default="true" />
+  <collection label="Free Introductory Couses">
+    <view name="course_why-splunk" />
+    <view name="course_why-ableversity" />
+    <view name="course_extending-splunk" />
+  </collection>
+  <collection label="Fundamentals">
+    <view name="course_splunk-user" />
+    <view name="course_splunk-power-user" />
+    <view name="course_splunk-advanced-power-user" />
+  </collection>
+  <collection label="Administration">
+    <view name="course_splunk-admin" />
+    <view name="course_splunk-fields" />
+    <view name="course_splunk-getting-data" />
+    <view name="course_splunk-regex" />
+  </collection>
+  <collection label="Architecture">
+    <view name="course_splunk-enterprise-architect" />
+  </collection>
+  <collection label="Tools">
+    <view name="training-comparison" />
+    <view name="Search" />
+    <view name="Dashboards" />
+  </collection>
+</nav>

@@ -1,0 +1,1461 @@
+{
+  "courses": [
+    {
+      "_id": "69caa9b0a2ca3c1e778de666",
+      "title": "Why Splunk?",
+      "description": "Discover why Splunk is one of the highest-paying skills in IT. From server administrators to data analysts, Splunk opens doors to lucrative careers \u2014 with certified professionals earning up to 52% more than their peers. This free course walks you through the career opportunity, salary potential, market demand, and what it takes to get started.",
+      "courseId": "why-splunk",
+      "difficulty": "beginner",
+      "estimatedDuration": 10,
+      "isActive": true,
+      "displayOrder": 0,
+      "tags": [
+        "why splunk",
+        "career",
+        "free"
+      ],
+      "totalCreditsRequired": 0,
+      "instructor": "Michael Bentley",
+      "lessons": [
+        {
+          "id": "69c2d65c84a33b81de8de667",
+          "title": "The Splunk Opportunity",
+          "duration": 2,
+          "order": 1,
+          "isRequired": true
+        },
+        {
+          "id": "69c2d65c84a33b81de8de669",
+          "title": "Who Is Splunk For?",
+          "duration": 2,
+          "order": 2,
+          "isRequired": true
+        },
+        {
+          "id": "69c2d65c84a33b81de8de66b",
+          "title": "The Career Ladder & What You Can Earn",
+          "duration": 2,
+          "order": 3,
+          "isRequired": true
+        },
+        {
+          "id": "69c2d65c84a33b81de8de66d",
+          "title": "The Market Demand",
+          "duration": 2,
+          "order": 4,
+          "isRequired": true
+        },
+        {
+          "id": "69c2d65c84a33b81de8de66f",
+          "title": "Your Path Forward with AbleU",
+          "duration": 2,
+          "order": 5,
+          "isRequired": true
+        }
+      ],
+      "imageName": "Why Splunk.png",
+      "imageType": "image/png",
+      "iapPrice": 0,
+      "price": 0,
+      "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/why-splunk/image?v=1785189743059",
+      "sitemap_url": "https://ableversity.com/why-splunk-course/",
+      "enroll_url": "https://ableu.ableversity.com/course/why-splunk?coupon=Ableversity4Splunk"
+    },
+    {
+      "_id": "69c9aa3a545bd727398de666",
+      "title": "Why Ableversity?",
+      "courseId": "why-ableversity",
+      "description": "Discover what makes Ableversity the premier destination for Splunk training. Meet your instructors, learn how the platform works, and find your ideal learning path.",
+      "difficulty": "beginner",
+      "instructor": "Michael Bentley",
+      "displayOrder": 10,
+      "isActive": true,
+      "tags": [
+        "beginner",
+        "intro",
+        "ableversity"
+      ],
+      "estimatedDuration": 10,
+      "lessons": [
+        {
+          "id": "69c9aa3a545bd727398de667",
+          "title": "Welcome to Ableversity",
+          "duration": 2,
+          "order": 1,
+          "isRequired": true
+        },
+        {
+          "id": "69c9aa3a545bd727398de668",
+          "title": "What Makes Ableversity Different",
+          "duration": 2,
+          "order": 2,
+          "isRequired": true
+        },
+        {
+          "id": "69c9aa3a545bd727398de669",
+          "title": "Meet Your Instructors",
+          "duration": 2,
+          "order": 3,
+          "isRequired": true
+        },
+        {
+          "id": "69c9aa3a545bd727398de66a",
+          "title": "How the Platform Works",
+          "duration": 2,
+          "order": 4,
+          "isRequired": true
+        },
+        {
+          "id": "69c9aa3a545bd727398de66b",
+          "title": "Your Learning Path",
+          "duration": 2,
+          "order": 5,
+          "isRequired": true
+        }
+      ],
+      "imageName": "Why Ableversity.png",
+      "imageType": "image/png",
+      "totalCreditsRequired": 0,
+      "iapPrice": 0,
+      "price": 0,
+      "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/why-ableversity/image?v=1785189743059",
+      "sitemap_url": "https://ableversity.com/why-ableversity/",
+      "enroll_url": "https://ableu.ableversity.com/course/why-ableversity?coupon=Ableversity4Splunk"
+    },
+    {
+      "_id": "69c9aa3a545bd727398de66c",
+      "title": "Intro to Splunk",
+      "courseId": "splunk-basics",
+      "description": "A high-level introduction to Splunk \u2014 what it is, how it works, and why it has become the go-to platform for machine data analytics and security operations.",
+      "difficulty": "beginner",
+      "instructor": "Michael Bentley",
+      "displayOrder": 20,
+      "isActive": true,
+      "tags": [
+        "beginner",
+        "splunk",
+        "intro",
+        "overview",
+        "basics"
+      ],
+      "estimatedDuration": 6,
+      "lessons": [
+        {
+          "id": "69c9aa3a545bd727398de66d",
+          "title": "What Is Splunk?",
+          "duration": 1,
+          "order": 1,
+          "isRequired": true
+        },
+        {
+          "id": "69c9aa3a545bd727398de66e",
+          "title": "How Splunk Collects Data",
+          "duration": 1,
+          "order": 2,
+          "isRequired": true
+        },
+        {
+          "id": "69c9aa3a545bd727398de66f",
+          "title": "Searching with SPL",
+          "duration": 1,
+          "order": 3,
+          "isRequired": true
+        },
+        {
+          "id": "69c9aa3a545bd727398de670",
+          "title": "Dashboards and Visualizations",
+          "duration": 1,
+          "order": 4,
+          "isRequired": true
+        },
+        {
+          "id": "69c9aa3a545bd727398de671",
+          "title": "Alerts and Automated Actions",
+          "duration": 1,
+          "order": 5,
+          "isRequired": true
+        },
+        {
+          "id": "69c9aa3a545bd727398de672",
+          "title": "Where Splunk Fits in Your Organization",
+          "duration": 1,
+          "order": 6,
+          "isRequired": true
+        }
+      ],
+      "imageName": "Splunk Basics.png",
+      "imageType": "image/png",
+      "totalCreditsRequired": 0,
+      "iapPrice": 0,
+      "price": 0,
+      "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/splunk-basics/image?v=1785189743059",
+      "sitemap_url": "https://ableversity.com/intro-to-splunk-course/",
+      "enroll_url": "https://ableu.ableversity.com/course/splunk-basics?coupon=Ableversity4Splunk"
+    },
+    {
+      "_id": "69caa9a21026d469a38de666",
+      "title": "Fundamentals 1",
+      "description": "Build a solid foundation in Splunk with expert instruction, developed under the guidance of Michael Bentley, aka \"The Splunk Doctor\".\n\nBuilt on Splunk 9.x \u2014 covering the same core skills and search language that power every version of Splunk.\n\n\n\n**What You'll Learn**\n\n23 structured lessons covering installation, advanced searching, reporting, and alert creation. Hands-on labs with real data ensure job-ready skills.\n\nCertification-Ready\n\nFollows the official Splunk User Certification exam blueprint. Our students consistently pass their certification exams after completing this course.\n\nStart your journey to Splunk mastery today.",
+      "courseId": "splunk-user",
+      "difficulty": "beginner",
+      "estimatedDuration": 142,
+      "isActive": true,
+      "displayOrder": 30,
+      "tags": [
+        "beginner",
+        "splunk-user"
+      ],
+      "totalCreditsRequired": 0,
+      "instructor": "Hailie Shaw",
+      "lessons": [
+        {
+          "id": "698b8765a449c2f8bb2df982",
+          "title": "Fundamentals 1 Module 1",
+          "duration": 1,
+          "order": 1,
+          "isRequired": true
+        },
+        {
+          "id": "698cbc900c04e407e141bb44",
+          "title": "Fundamentals 1 Module 2",
+          "duration": 4,
+          "order": 2,
+          "isRequired": true
+        },
+        {
+          "id": "698cc1ad0c04e407e141bbe9",
+          "title": "Fundamentals 1 Module 3",
+          "duration": 3,
+          "order": 3,
+          "isRequired": true
+        },
+        {
+          "id": "698cc22d0c04e407e141bc62",
+          "title": "Fundamentals 1 Module 4",
+          "duration": 4,
+          "order": 4,
+          "isRequired": true
+        },
+        {
+          "id": "698cc3b70c04e407e141be82",
+          "title": "Fundamentals 1 Module 5",
+          "duration": 10,
+          "order": 5,
+          "isRequired": true
+        },
+        {
+          "id": "698cc3e00c04e407e141becd",
+          "title": "Fundamentals 1 Module 6",
+          "duration": 3,
+          "order": 6,
+          "isRequired": true
+        },
+        {
+          "id": "698cc4120c04e407e141bf3d",
+          "title": "Fundamentals 1 Module 7",
+          "duration": 5,
+          "order": 7,
+          "isRequired": true
+        },
+        {
+          "id": "698cc4370c04e407e141bf88",
+          "title": "Fundamentals 1 Module 8",
+          "duration": 4,
+          "order": 8,
+          "isRequired": true
+        },
+        {
+          "id": "698cc4940c04e407e141bfd2",
+          "title": "Fundamentals 1 Module 9",
+          "duration": 8,
+          "order": 9,
+          "isRequired": true
+        },
+        {
+          "id": "698cc4bd0c04e407e141c01c",
+          "title": "Fundamentals 1 Module 10",
+          "duration": 4,
+          "order": 10,
+          "isRequired": true
+        },
+        {
+          "id": "698cc4d90c04e407e141c066",
+          "title": "Fundamentals 1 Module 11",
+          "duration": 6,
+          "order": 11,
+          "isRequired": true
+        },
+        {
+          "id": "698cc4f30c04e407e141c0b0",
+          "title": "Fundamentals 1 Module 12",
+          "duration": 10,
+          "order": 12,
+          "isRequired": true
+        },
+        {
+          "id": "698cc51c0c04e407e141c0fa",
+          "title": "Fundamentals 1 Module 13",
+          "duration": 3,
+          "order": 13,
+          "isRequired": true
+        },
+        {
+          "id": "698cc5370c04e407e141c144",
+          "title": "Fundamentals 1 Module 14",
+          "duration": 2,
+          "order": 14,
+          "isRequired": true
+        },
+        {
+          "id": "698cc5520c04e407e141c18e",
+          "title": "Fundamentals 1 Module 15",
+          "duration": 10,
+          "order": 15,
+          "isRequired": true
+        },
+        {
+          "id": "698cc5730c04e407e141c1d8",
+          "title": "Fundamentals 1 Module 16",
+          "duration": 2,
+          "order": 16,
+          "isRequired": true
+        },
+        {
+          "id": "698cc5970c04e407e141c222",
+          "title": "Fundamentals 1 Module 17",
+          "duration": 10,
+          "order": 17,
+          "isRequired": true
+        },
+        {
+          "id": "698cc5bb0c04e407e141c26c",
+          "title": "Fundamentals 1 Module 18",
+          "duration": 3,
+          "order": 18,
+          "isRequired": true
+        },
+        {
+          "id": "698cc5dc0c04e407e141c2b6",
+          "title": "Fundamentals 1 Module 19",
+          "duration": 16,
+          "order": 19,
+          "isRequired": true
+        },
+        {
+          "id": "698cc6020c04e407e141c300",
+          "title": "Fundamentals 1 Module 20",
+          "duration": 4,
+          "order": 20,
+          "isRequired": true
+        },
+        {
+          "id": "698cc61f0c04e407e141c34a",
+          "title": "Fundamentals 1 Module 21",
+          "duration": 14,
+          "order": 21,
+          "isRequired": true
+        },
+        {
+          "id": "698cc6430c04e407e141c394",
+          "title": "Fundamentals 1 Module 22",
+          "duration": 5,
+          "order": 22,
+          "isRequired": true
+        },
+        {
+          "id": "698cc6670c04e407e141c3de",
+          "title": "Fundamentals 1 Module 23",
+          "duration": 2,
+          "order": 23,
+          "isRequired": true
+        },
+        {
+          "id": "698cc6890c04e407e141c428",
+          "title": "Fundamentals 1 Module 24",
+          "duration": 9,
+          "order": 24,
+          "isRequired": true
+        }
+      ],
+      "imageName": "Udemy - Thumbnail - Certified - Fundamentals 1.png",
+      "imageType": "image/png",
+      "iapPrice": 9.99,
+      "price": 8.99,
+      "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/splunk-user/image?v=1785189743059",
+      "sitemap_url": "https://ableversity.com/splunk-fundamentals-1-online-training-course/",
+      "enroll_url": "https://ableu.ableversity.com/course/splunk-user?coupon=Ableversity4Splunk"
+    },
+    {
+      "_id": "69caa9a5307fe4241a8de666",
+      "title": "Fundamentals 2",
+      "description": "Ableversity's Splunk Fundamentals 2: Elevate Your Skills to Power User Level\n\nBuilt on Splunk 9.x \u2014 covering the same core skills and search language that power every version of Splunk.\n\nAdvance beyond the basics with expert instruction from Principal Instructor Hailie Shaw, developed under the guidance of Michael Bentley, aka \"The Splunk Doctor\".\n\nWhat You'll Learn\n\n22 advanced lessons covering complex visualizations, knowledge objects, field extractions, macros, workflow actions, and data models. Hands-on labs with real data develop the technical proficiency and strategic thinking required for power user success.\n\nKey Topics:\n\nMapping and eval commands\nRex, field aliases, and calculated fields\nTags, event types, and macros\nData models and Common Information Model (CIM)\n\nCertification-Ready\n\nFollows the official Splunk Core Certified Power User exam blueprint. Our students consistently pass their certification exams after completing this course.\n\nAdvance your Splunk journey to the power user level today.",
+      "courseId": "splunk-power-user",
+      "difficulty": "beginner",
+      "estimatedDuration": 74,
+      "isActive": true,
+      "displayOrder": 40,
+      "tags": [
+        "beginner",
+        "splunk-power-user"
+      ],
+      "totalCreditsRequired": 0,
+      "instructor": "Hailie Shaw",
+      "lessons": [
+        {
+          "id": "699dcabe0c04e407e141dbb3",
+          "title": "Fundamentals 2 Module 1",
+          "duration": 1,
+          "order": 1,
+          "isRequired": true
+        },
+        {
+          "id": "699dd00e0c04e407e141dd42",
+          "title": "Fundamentals 2 Module 2",
+          "duration": 2,
+          "order": 2,
+          "isRequired": true
+        },
+        {
+          "id": "699dd05f0c04e407e141ddda",
+          "title": "Fundamentals 2 Module 3",
+          "duration": 3,
+          "order": 3,
+          "isRequired": true
+        },
+        {
+          "id": "699dd0dc0c04e407e141df59",
+          "title": "Fundamentals 2 Module 4",
+          "duration": 4,
+          "order": 4,
+          "isRequired": true
+        },
+        {
+          "id": "699dd1130c04e407e141dff1",
+          "title": "Fundamentals 2 Module 5",
+          "duration": 3,
+          "order": 5,
+          "isRequired": true
+        },
+        {
+          "id": "699dd1320c04e407e141e089",
+          "title": "Fundamentals 2 Module 6",
+          "duration": 2,
+          "order": 6,
+          "isRequired": true
+        },
+        {
+          "id": "699dd1580c04e407e141e121",
+          "title": "Fundamentals 2 Module 7",
+          "duration": 4,
+          "order": 7,
+          "isRequired": true
+        },
+        {
+          "id": "699dd1760c04e407e141e1b9",
+          "title": "Fundamentals 2 Module 8",
+          "duration": 3,
+          "order": 8,
+          "isRequired": true
+        },
+        {
+          "id": "699dd1b10c04e407e141e251",
+          "title": "Fundamentals 2 Module 9",
+          "duration": 5,
+          "order": 9,
+          "isRequired": true
+        },
+        {
+          "id": "699dd1cd0c04e407e141e2e9",
+          "title": "Fundamentals 2 Module 10",
+          "duration": 3,
+          "order": 10,
+          "isRequired": true
+        },
+        {
+          "id": "699dd1e50c04e407e141e381",
+          "title": "Fundamentals 2 Module 11",
+          "duration": 10,
+          "order": 11,
+          "isRequired": true
+        },
+        {
+          "id": "699dd1fd0c04e407e141e419",
+          "title": "Fundamentals 2 Module 12",
+          "duration": 6,
+          "order": 12,
+          "isRequired": true
+        },
+        {
+          "id": "699dd2280c04e407e141e4b1",
+          "title": "Fundamentals 2 Module 13",
+          "duration": 7,
+          "order": 13,
+          "isRequired": true
+        },
+        {
+          "id": "699dd2410c04e407e141e549",
+          "title": "Fundamentals 2 Module 14",
+          "duration": 4,
+          "order": 14,
+          "isRequired": true
+        },
+        {
+          "id": "6a4d0737f76c6e64182731e7",
+          "title": "Fundamentals 2 Module 15",
+          "duration": 3,
+          "order": 15,
+          "isRequired": true
+        },
+        {
+          "id": "699dd2930c04e407e141e679",
+          "title": "Fundamentals 2 Module 16",
+          "duration": 14,
+          "order": 16,
+          "isRequired": true
+        }
+      ],
+      "imageName": "Udemy - Thumbnail - Certified - Fundamentals 2.png",
+      "imageType": "image/png",
+      "iapPrice": 9.99,
+      "price": 8.99,
+      "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/splunk-power-user/image?v=1785189743059",
+      "sitemap_url": "https://ableversity.com/splunk-fundamentals-2-online-training-course/",
+      "enroll_url": "https://ableu.ableversity.com/course/splunk-power-user?coupon=Ableversity4Splunk"
+    },
+    {
+      "_id": "69caa9a9f76d8476908de666",
+      "title": "Fundamentals 3",
+      "description": "Ableversity's Splunk Fundamentals 3: Advance to Enterprise Administration Excellence\n\nBuilt on Splunk 9.x \u2014 covering the same core skills and search language that power every version of Splunk.\n\nTransform from power user to enterprise administrator with expert-level training developed under the guidance of Michael Bentley, aka \"The Splunk Doctor\".\n\nWhat You'll Learn\n\n8 intensive lessons covering advanced SPL commands, performance optimization, security practices, and data management. Gain deep insight into Splunk's architecture and administrative features that separate good administrators from great ones.\n\nKey Topics:\n\nAdvanced eval, eventstats, and streamstats commands\nAppendpipe and rest commands\nData masking and acceleration strategies\nLeveraging the _internal index\nWorking with JSON data\n\nCertification-Ready\n\nFollows the official Splunk Enterprise Admin Certification exam blueprint. Our students consistently pass their certification exams after completing this course.\n\nComplete your journey to Splunk enterprise administration mastery today.",
+      "courseId": "splunk-advanced-power-user",
+      "difficulty": "intermediate",
+      "estimatedDuration": 122,
+      "isActive": true,
+      "displayOrder": 50,
+      "tags": [
+        "beginner",
+        "splunk-advanced-power-user",
+        "intermediate",
+        "splunk-power-user"
+      ],
+      "totalCreditsRequired": 16,
+      "instructor": "Hailie Shaw",
+      "lessons": [
+        {
+          "id": "699dd74a0c04e407e141fb96",
+          "title": "Fundamentals 3 Module 1",
+          "duration": 2,
+          "order": 1,
+          "isRequired": true
+        },
+        {
+          "id": "699dd7710c04e407e141fc44",
+          "title": "Fundamentals 3 Module 2",
+          "duration": 22,
+          "order": 2,
+          "isRequired": true
+        },
+        {
+          "id": "699dd7f30c04e407e141fe00",
+          "title": "Fundamentals 3 Module 3",
+          "duration": 3,
+          "order": 3,
+          "isRequired": true
+        },
+        {
+          "id": "699dd83b0c04e407e141feb8",
+          "title": "Fundamentals 3 Module 4",
+          "duration": 9,
+          "order": 4,
+          "isRequired": true
+        },
+        {
+          "id": "699dd9180c04e407e141ff70",
+          "title": "Fundamentals 3 Module 5",
+          "duration": 10,
+          "order": 5,
+          "isRequired": true
+        },
+        {
+          "id": "699dd9540c04e407e1420036",
+          "title": "Fundamentals 3 Module 6",
+          "duration": 12,
+          "order": 6,
+          "isRequired": true
+        },
+        {
+          "id": "699dd9ae0c04e407e1420162",
+          "title": "Fundamentals 3 Module 7",
+          "duration": 22,
+          "order": 7,
+          "isRequired": true
+        },
+        {
+          "id": "699dd9d10c04e407e1420228",
+          "title": "Fundamentals 3 Module 8",
+          "duration": 23,
+          "order": 8,
+          "isRequired": true
+        },
+        {
+          "id": "699dd9fb0c04e407e14202ee",
+          "title": "Fundamentals 3 Module 9",
+          "duration": 19,
+          "order": 9,
+          "isRequired": true
+        }
+      ],
+      "imageName": "Udemy - Thumbnail - Certified - Fundamentals 3.png",
+      "imageType": "image/png",
+      "iapPrice": 9.99,
+      "price": 8.99,
+      "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/splunk-advanced-power-user/image?v=1785189743059",
+      "sitemap_url": "https://ableversity.com/splunk-fundamentals-3-online-training-course/",
+      "enroll_url": "https://ableu.ableversity.com/course/splunk-advanced-power-user?coupon=Ableversity4Splunk"
+    },
+    {
+      "_id": "69ca7e171b43b8d464cb9923",
+      "title": "Extending Splunk - Developer Basics",
+      "courseId": "extending-splunk",
+      "description": "A short dive into Splunk app development, packaging, and enterprise distribution \u2014 covering deployment servers, cluster bundles, and SHC deployers.",
+      "difficulty": "intermediate",
+      "instructor": "Michael Bentley",
+      "displayOrder": 55,
+      "isActive": true,
+      "tags": [
+        "intermediate",
+        "splunk",
+        "apps",
+        "deployment",
+        "enterprise",
+        "administration"
+      ],
+      "estimatedDuration": 7,
+      "imageType": "image/png",
+      "imageName": "Extending Splunk.png",
+      "lessons": [
+        {
+          "id": "69ca7e181b43b8d464cb9924",
+          "title": "What Is a Splunk App?",
+          "duration": 1,
+          "order": 1,
+          "isRequired": true
+        },
+        {
+          "id": "69ca7e181b43b8d464cb9925",
+          "title": "Downloading Apps from Splunkbase",
+          "duration": 1,
+          "order": 2,
+          "isRequired": true
+        },
+        {
+          "id": "69ca7e181b43b8d464cb9926",
+          "title": "Building Your First Splunk App",
+          "duration": 1,
+          "order": 3,
+          "isRequired": true
+        },
+        {
+          "id": "69ca7e181b43b8d464cb9927",
+          "title": "Packaging and Distributing Apps",
+          "duration": 1,
+          "order": 4,
+          "isRequired": true
+        },
+        {
+          "id": "69ca7e181b43b8d464cb9928",
+          "title": "The Deployment Server",
+          "duration": 1,
+          "order": 5,
+          "isRequired": true
+        },
+        {
+          "id": "69ca7e181b43b8d464cb9929",
+          "title": "Cluster Bundles for Indexer Clusters",
+          "duration": 1,
+          "order": 6,
+          "isRequired": true
+        },
+        {
+          "id": "69ca7e181b43b8d464cb992a",
+          "title": "The SHC Deployer",
+          "duration": 1,
+          "order": 7,
+          "isRequired": true
+        }
+      ],
+      "totalCreditsRequired": 0,
+      "iapPrice": 0,
+      "price": 0,
+      "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/extending-splunk/image?v=1785189743059",
+      "sitemap_url": "https://ableversity.com/extending-splunk-developer-basics/",
+      "enroll_url": "https://ableu.ableversity.com/course/extending-splunk?coupon=Ableversity4Splunk"
+    },
+    {
+      "_id": "699ddb3d0c04e407e1420349",
+      "title": "Splunk Enterprise Administrator",
+      "description": "Ableversity's Splunk Enterprise Administration: Master Data and System Management\n\nBuilt on Splunk 9.x \u2014 covering the same core skills and search language that power every version of Splunk.\n\nPrepare for the Splunk Enterprise Administrator Certification with a comprehensive, expert-led training program designed by Michael Bentley, aka  \"The Splunk Doctor\" and delivered by Principal Instructor Hailie Shaw. This course bridges the gap between power user knowledge and full-scale Splunk administration, covering both data ingestion and system management.\n\nWhat You'll Learn\n\nComplete Data Administration Pipeline:\n\nIngest data efficiently into Splunk\n\nConfigure universal and heavy forwarders\n\nTune data inputs and parsing for optimal performance\n\nUse data preview for raw sources\n\nCreate knowledge objects from raw data\n\nSystem Administration and Splunk Management:\n\nDeploy and manage Splunk environments\n\nHandle license and app management\n\nWork with configuration files and create indexes\n\nDefine user roles and authentication policies\n\nManage data forwarding and receiving\n\nPerform diagnostics and troubleshooting\n\nUnderstand distributed search architecture\n\nHands-On, Certification-Ready Training\n\n24 focused lessons combining theory, demonstrations, and hands-on labs\n\nFollows the official PearsonVUE exam blueprint for Splunk Enterprise Administration\n\nDesigned for candidates who are Splunk Core Certified Power Users\n\nGraduates consistently pass the Splunk Enterprise Administrator exam\n\nMaster both Splunk data administration and system administration with the guidance of industry leaders, and launch your career as a certified Splunk Enterprise Administrator.",
+      "courseId": "splunk-admin",
+      "difficulty": "intermediate",
+      "estimatedDuration": 303,
+      "isActive": true,
+      "displayOrder": 60,
+      "tags": [
+        "splunk",
+        "system administration",
+        "admin",
+        "data administration"
+      ],
+      "totalCreditsRequired": 0,
+      "instructor": "Hailie Shaw",
+      "lessons": [
+        {
+          "id": "699ddf336552e21d258de666",
+          "title": "System Administration Module 1",
+          "duration": 2,
+          "order": 1,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de667",
+          "title": "System Administration Module 2",
+          "duration": 8,
+          "order": 2,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de668",
+          "title": "System Administration Module 3",
+          "duration": 5,
+          "order": 3,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de669",
+          "title": "System Administration Module 4",
+          "duration": 5,
+          "order": 4,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de66a",
+          "title": "System Administration Module 5",
+          "duration": 2,
+          "order": 5,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de66b",
+          "title": "System Administration Module 6",
+          "duration": 5,
+          "order": 6,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de66c",
+          "title": "System Administration Module 7",
+          "duration": 7,
+          "order": 7,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de66d",
+          "title": "System Administration Module 8",
+          "duration": 14,
+          "order": 8,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de66e",
+          "title": "System Administration Module 9",
+          "duration": 10,
+          "order": 9,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de66f",
+          "title": "System Administration Module 10",
+          "duration": 10,
+          "order": 10,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de670",
+          "title": "System Administration Module 11",
+          "duration": 10,
+          "order": 11,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de671",
+          "title": "System Administration Module 12",
+          "duration": 14,
+          "order": 12,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de672",
+          "title": "System Administration Module 13",
+          "duration": 8,
+          "order": 13,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de673",
+          "title": "System Administration Module 14",
+          "duration": 14,
+          "order": 14,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de674",
+          "title": "System Administration Module 15",
+          "duration": 8,
+          "order": 15,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de675",
+          "title": "System Administration Module 16",
+          "duration": 11,
+          "order": 16,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de676",
+          "title": "System Administration Module 17",
+          "duration": 5,
+          "order": 17,
+          "isRequired": true
+        },
+        {
+          "id": "699ddf336552e21d258de677",
+          "title": "System Administration Module 18",
+          "duration": 5,
+          "order": 18,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de666",
+          "title": "Data Administration Module 1",
+          "duration": 1,
+          "order": 19,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de667",
+          "title": "Data Administration Module 2",
+          "duration": 11,
+          "order": 20,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de668",
+          "title": "Data Administration Module 3",
+          "duration": 6,
+          "order": 21,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de669",
+          "title": "Data Administration Module 4",
+          "duration": 12,
+          "order": 22,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de66a",
+          "title": "Data Administration Module 5",
+          "duration": 9,
+          "order": 23,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de66b",
+          "title": "Data Administration Module 6",
+          "duration": 9,
+          "order": 24,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de66c",
+          "title": "Data Administration Module 7",
+          "duration": 11,
+          "order": 25,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de66d",
+          "title": "Data Administration Module 8",
+          "duration": 17,
+          "order": 26,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de66e",
+          "title": "Data Administration Module 9",
+          "duration": 7,
+          "order": 27,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de66f",
+          "title": "Data Administration Module 10",
+          "duration": 6,
+          "order": 28,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de670",
+          "title": "Data Administration Module 11",
+          "duration": 22,
+          "order": 29,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de671",
+          "title": "Data Administration Module 12",
+          "duration": 23,
+          "order": 30,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de672",
+          "title": "Data Administration Module 13",
+          "duration": 16,
+          "order": 31,
+          "isRequired": true
+        },
+        {
+          "id": "699de01443d06749e98de673",
+          "title": "Data Administration Module 14",
+          "duration": 10,
+          "order": 32,
+          "isRequired": true
+        }
+      ],
+      "imageName": "Splunk Enterprise Certified Admin (2).png",
+      "imageType": "image/png",
+      "iapPrice": 14.99,
+      "price": 13.49,
+      "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/splunk-admin/image?v=1785189743059",
+      "sitemap_url": "https://ableversity.com/splunk-enterprise-administrator-training-course/",
+      "enroll_url": "https://ableu.ableversity.com/course/splunk-admin?coupon=Ableversity4Splunk"
+    },
+    {
+      "_id": "6a26ce15917db744677486e7",
+      "title": "Splunk Enterprise Architect",
+      "description": "Ableversity's Splunk Architect & Cluster Admin: Design, Deploy, and Scale Enterprise Splunk Environments\n\nAn advanced training program designed by Michael Bentley, aka \"The Splunk Doctor,\" for experienced administrators ready to architect and manage enterprise-scale Splunk deployments.\n\nWhat You'll Learn\n\nArchitecture and Planning:\n\nDefine server roles and build deployment plans aligned to organizational requirements\nEvaluate hardware, storage, network, and security considerations\n\nIndexers, Clustering, and High Availability:\n\nConfigure indexers for optimal performance and data ingestion\nBuild fault-tolerant indexer clusters with replication and search factor mastery\nDeploy across multiple sites for geographic redundancy\n\nForwarder Management and Search Head Clustering:\n\nMaster forwarder configuration and custom integrations\nDistribute search workloads through search head cluster architecture\n\nMonitoring and Troubleshooting:\n\nTrack deployment health using the monitoring console\nTroubleshoot performance issues and plan for capacity growth\n\nComprehensive modules combining strategic planning, advanced configuration, and hands-on demonstrations designed for Splunk administrators ready to lead at enterprise scale.\n\nDesign, deploy, and maintain high-availability Splunk environments with the guidance of true industry leaders.",
+      "courseId": "splunk-enterprise-architect",
+      "difficulty": "advanced",
+      "estimatedDuration": 389,
+      "isActive": true,
+      "displayOrder": 70,
+      "tags": [
+        "pro",
+        "splunk-architect"
+      ],
+      "totalCreditsRequired": 0,
+      "price": 14.99,
+      "iapPrice": 14.99,
+      "instructor": "Hailie Shaw",
+      "lessons": [
+        {
+          "id": "6a340d70f76c6e6418254d24",
+          "title": "Architect_Basic_Concepts_Introduction",
+          "duration": 2,
+          "order": 1,
+          "isRequired": true
+        },
+        {
+          "id": "6a340e2af76c6e6418255078",
+          "title": "Architect_Basic_Concepts_Module_1",
+          "duration": 20,
+          "order": 2,
+          "isRequired": true
+        },
+        {
+          "id": "6a340f76f76c6e6418255b92",
+          "title": "Architect_Basic_Concepts_Module_2",
+          "duration": 13,
+          "order": 3,
+          "isRequired": true
+        },
+        {
+          "id": "6a3410a3f76c6e6418256917",
+          "title": "Architect_Basic_Concepts_Module_3A",
+          "duration": 22,
+          "order": 4,
+          "isRequired": true
+        },
+        {
+          "id": "6a34116cf76c6e6418256c7a",
+          "title": "Architect_Basic_Concepts_Module_3B",
+          "duration": 11,
+          "order": 5,
+          "isRequired": true
+        },
+        {
+          "id": "6a3411ccf76c6e6418256fe0",
+          "title": "Architect_Basic_Concepts_Module_4A",
+          "duration": 23,
+          "order": 6,
+          "isRequired": true
+        },
+        {
+          "id": "6a3412e5f76c6e6418257349",
+          "title": "Architect_Basic_Concepts_Module_4B",
+          "duration": 6,
+          "order": 7,
+          "isRequired": true
+        },
+        {
+          "id": "6a341313f76c6e64182576b5",
+          "title": "Architect_Basic_Concepts_Module_5",
+          "duration": 22,
+          "order": 8,
+          "isRequired": true
+        },
+        {
+          "id": "6a341350f76c6e6418257a24",
+          "title": "Architect_Basic_Concepts_Module_6A",
+          "duration": 17,
+          "order": 9,
+          "isRequired": true
+        },
+        {
+          "id": "6a341371f76c6e6418257d96",
+          "title": "Architect_Basic_Concepts_Module_6B",
+          "duration": 5,
+          "order": 10,
+          "isRequired": true
+        },
+        {
+          "id": "6a34139ff76c6e641825810b",
+          "title": "Architect_Basic_Concepts_Module_7A",
+          "duration": 10,
+          "order": 11,
+          "isRequired": true
+        },
+        {
+          "id": "6a3413c0f76c6e6418258483",
+          "title": "Architect_Basic_Concepts_Module_7B",
+          "duration": 20,
+          "order": 12,
+          "isRequired": true
+        },
+        {
+          "id": "6a3413f9f76c6e64182587fe",
+          "title": "Architect_Cluster_Administration_Introduction",
+          "duration": 1,
+          "order": 13,
+          "isRequired": true
+        },
+        {
+          "id": "6a341425f76c6e6418258b7c",
+          "title": "Architect_Cluster_Administration_Module_1A",
+          "duration": 23,
+          "order": 14,
+          "isRequired": true
+        },
+        {
+          "id": "6a34145bf76c6e6418258efd",
+          "title": "Architect_Cluster_Administration_Module_1B",
+          "duration": 28,
+          "order": 15,
+          "isRequired": true
+        },
+        {
+          "id": "6a3414abf76c6e6418259281",
+          "title": "Architect_Cluster_Administration_Module_2A",
+          "duration": 24,
+          "order": 16,
+          "isRequired": true
+        },
+        {
+          "id": "6a3414edf76c6e6418259608",
+          "title": "Architect_Cluster_Administration_Module_2B",
+          "duration": 38,
+          "order": 17,
+          "isRequired": true
+        },
+        {
+          "id": "6a341529f76c6e6418259992",
+          "title": "Architect_Cluster_Administration_Module_3",
+          "duration": 17,
+          "order": 18,
+          "isRequired": true
+        },
+        {
+          "id": "6a34155ef76c6e6418259d1f",
+          "title": "Architect_Cluster_Administration_Module_4A",
+          "duration": 19,
+          "order": 19,
+          "isRequired": true
+        },
+        {
+          "id": "6a34158ef76c6e641825a0af",
+          "title": "Architect_Cluster_Administration_Module_4B",
+          "duration": 21,
+          "order": 20,
+          "isRequired": true
+        },
+        {
+          "id": "6a3415c8f76c6e641825a442",
+          "title": "Architect_Cluster_Administration_Module_5A",
+          "duration": 14,
+          "order": 21,
+          "isRequired": true
+        },
+        {
+          "id": "6a341603f76c6e641825a7d8",
+          "title": "Architect_Cluster_Administration_Module_5b",
+          "duration": 8,
+          "order": 22,
+          "isRequired": true
+        },
+        {
+          "id": "6a341636f76c6e641825ab71",
+          "title": "Architect_Cluster_Administration_Module_6",
+          "duration": 25,
+          "order": 23,
+          "isRequired": true
+        }
+      ],
+      "imageName": "Ableversity Architect.png",
+      "imageType": "image/png",
+      "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/splunk-enterprise-architect/image?v=1785189743059",
+      "sitemap_url": "https://ableversity.com/splunk-architect-training-course/",
+      "enroll_url": "https://ableu.ableversity.com/course/splunk-enterprise-architect?coupon=Ableversity4Splunk"
+    },
+    {
+      "_id": "698b647a4de500de3e11373d",
+      "title": "Getting Data In",
+      "description": "This course is designed to provide a comprehensive understanding of how to get data into Splunk, a leading data analytics platform used for searching, analyzing, and visualizing large sets of data. The course will start by introducing the basics of Splunk and its architecture, including the different components of a Splunk deployment and the role of each component.\n\nBuilt on Splunk 9.x \u2014 covering the same core skills and search language that power every version of Splunk.\n\nWe will then dive into the process of collecting, indexing, and managing data in Splunk. Students will learn how to set up data inputs and configure data sources, as well as best practices for data management such as data normalization and data validation. The course will cover various data inputs such as syslog, network inputs, script inputs, and more.\n\nOnce students have a solid understanding of how to get data into Splunk, they will learn how to use Splunk\u2019s powerful search and reporting features to gain insights from their data. This will include learning how to use Splunk\u2019s search language, creating and saving searches, and creating and scheduling reports.\n\nThe course will also cover the creation and sharing of visualizations of the data. Students will learn how to create and customize dashboards, charts, and other visualization types using the Splunk web interface. Additionally, students will learn how to share their visualizations with others, as well as how to export data from Splunk.\n\nBy the end of the course, students will have a solid understanding of how to use Splunk to make sense of their data, including the ability to collect, index, and manage data, search and report on data, and create and share visualizations. This knowledge will be valuable for professionals in a variety of fields, including IT, security, and business operations.\nWhat You'll Learn\n\nProgress from foundational concepts to advanced techniques with hands-on application in real-world scenarios.\n\nKey Topics:\n\nSplunk architecture: indexers, search heads, forwarders, and deployment servers\nData ingestion: syslog, network data, scripts, file monitoring, and database connections\nAdvanced Search Processing Language (SPL) and automated reporting\nVisualization, dashboards, and data export\n\nCareer Impact\n\nDevelop comprehensive expertise valuable across IT operations, cybersecurity, business intelligence, and data science. Search, analyze, and visualize massive datasets to deliver measurable organizational value.\n\nAchieve complete Splunk mastery today.",
+      "courseId": "splunk-getting-data",
+      "difficulty": "beginner",
+      "estimatedDuration": 47,
+      "isActive": true,
+      "displayOrder": 80,
+      "tags": [
+        "splunk",
+        "getting data in",
+        "data ingestion"
+      ],
+      "totalCreditsRequired": 0,
+      "instructor": "Hailie Shaw",
+      "lessons": [
+        {
+          "id": "699ddd0d5e79a978ea8de666",
+          "title": "Getting Data In Module 1",
+          "duration": 1,
+          "order": 1,
+          "isRequired": true
+        },
+        {
+          "id": "699ddd0d5e79a978ea8de667",
+          "title": "Getting Data In Module 2",
+          "duration": 6,
+          "order": 2,
+          "isRequired": true
+        },
+        {
+          "id": "699ddd0d5e79a978ea8de668",
+          "title": "Getting Data In Module 3",
+          "duration": 2,
+          "order": 3,
+          "isRequired": true
+        },
+        {
+          "id": "699ddd0d5e79a978ea8de669",
+          "title": "Getting Data In Module 4",
+          "duration": 11,
+          "order": 4,
+          "isRequired": true
+        },
+        {
+          "id": "699ddd0d5e79a978ea8de66a",
+          "title": "Getting Data In Module 5",
+          "duration": 4,
+          "order": 5,
+          "isRequired": true
+        },
+        {
+          "id": "699ddd0d5e79a978ea8de66b",
+          "title": "Getting Data In Module 6",
+          "duration": 6,
+          "order": 6,
+          "isRequired": true
+        },
+        {
+          "id": "699ddd0d5e79a978ea8de66c",
+          "title": "Getting Data In Module 7",
+          "duration": 10,
+          "order": 7,
+          "isRequired": true
+        },
+        {
+          "id": "699ddd0d5e79a978ea8de66d",
+          "title": "Getting Data In Module 8",
+          "duration": 7,
+          "order": 8,
+          "isRequired": true
+        }
+      ],
+      "imageName": "Udemy - Thumbnail - Certified - Getting Data In.png",
+      "imageType": "image/png",
+      "iapPrice": 4.99,
+      "price": 4.49,
+      "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/splunk-getting-data/image?v=1785189743059",
+      "sitemap_url": "https://ableversity.com/getting-data-into-splunk-training-course/",
+      "enroll_url": "https://ableu.ableversity.com/course/splunk-getting-data?coupon=Ableversity4Splunk"
+    },
+    {
+      "_id": "69caa9adf341035d448de666",
+      "title": "Fields & Extractions",
+      "description": "Ableversity's Splunk Fields and Extractions: Unlock the Power of Your Data\n\nBuilt on Splunk 9.x \u2014 covering the same core skills and search language that power every version of Splunk.\n\nMaster the critical skills to transform raw data into structured, searchable intelligence with training developed under the guidance of Michael Bentley, aka \"The Splunk Doctor\".\n\nWhat You'll Learn\n\nComprehensive instruction and hands-on exercises develop complete proficiency in identifying, extracting, and managing fields from any data type.\n\nKey Topics:\n\nUnderstanding default and user-defined fields\nExtracting data from structured, semi-structured, and unstructured sources\nRegular expressions and complex data parsing\nField Extractor, Field Extractor Wizard, and Field Editor\nField aliasing, renaming, and masking for security and compliance\n\nWho Should Enroll\n\nIT professionals, data analysts, and anyone working with large datasets seeking to gain deeper insights from their data.\n\nTransform any raw data source into structured, searchable intelligence today.",
+      "courseId": "splunk-fields",
+      "difficulty": "intermediate",
+      "estimatedDuration": 26,
+      "isActive": true,
+      "displayOrder": 90,
+      "tags": [
+        "splunk",
+        "fields",
+        "extractions"
+      ],
+      "totalCreditsRequired": 0,
+      "instructor": "Hailie Shaw",
+      "lessons": [
+        {
+          "id": "699dd77956886a64ab8de666",
+          "title": "Fields & Extractions Module 1",
+          "duration": 1,
+          "order": 1,
+          "isRequired": true
+        },
+        {
+          "id": "699dd77956886a64ab8de667",
+          "title": "Fields & Extractions Module 2",
+          "duration": 5,
+          "order": 2,
+          "isRequired": true
+        },
+        {
+          "id": "699dd77956886a64ab8de668",
+          "title": "Fields & Extractions Module 3",
+          "duration": 3,
+          "order": 3,
+          "isRequired": true
+        },
+        {
+          "id": "699dd77956886a64ab8de669",
+          "title": "Fields & Extractions Module 4",
+          "duration": 4,
+          "order": 4,
+          "isRequired": true
+        },
+        {
+          "id": "699dd77956886a64ab8de66a",
+          "title": "Fields & Extractions Module 5",
+          "duration": 3,
+          "order": 5,
+          "isRequired": true
+        },
+        {
+          "id": "699dd77956886a64ab8de66b",
+          "title": "Fields & Extractions Module 6",
+          "duration": 4,
+          "order": 6,
+          "isRequired": true
+        },
+        {
+          "id": "699dd77956886a64ab8de66c",
+          "title": "Fields & Extractions Module 7",
+          "duration": 6,
+          "order": 7,
+          "isRequired": true
+        }
+      ],
+      "imageName": "Udemy - Thumbnail - Certified - Fields and Extractions.png",
+      "imageType": "image/png",
+      "iapPrice": 4.99,
+      "price": 4.49,
+      "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/splunk-fields/image?v=1785189743059",
+      "sitemap_url": "https://ableversity.com/splunk-fields-and-extractions-training-course/",
+      "enroll_url": "https://ableu.ableversity.com/course/splunk-fields?coupon=Ableversity4Splunk"
+    },
+    {
+      "_id": "698b625d4de500de3e11368b",
+      "title": "Regular Expressions",
+      "description": "Ableversity's Splunk Regular Expressions: From Beginning to End\n\nBuilt on Splunk 9.x \u2014 covering the same core skills and search language that power every version of Splunk.\n\nMaster regular expressions in Splunk with instruction from Principal Instructor Hailie Shaw, developed under the guidance of Michael Bentley, aka \"The Splunk Doctor\".\n\nWhat You'll Learn\n\nProgress from fundamentals to advanced applications with clear explanations and hands-on examples. Learn to extract, validate, and manipulate data with confidence.\n\nKey Topics:\n\nHistory and fundamentals of regex\nBasic characters and quantifiers\nRegex anchors and groupings\nCapture groups and named capture groups\nApplying regex in Splunk SPL and field extractions\n\nWho Should Enroll\n\nSoftware developers, data scientists, Splunk administrators, or anyone who needs to manipulate text data. Beginners gain a solid foundation; experienced users take their skills to the next level.\n\nMaster regular expressions to solve real-world Splunk challenges today.",
+      "courseId": "splunk-regex",
+      "difficulty": "advanced",
+      "estimatedDuration": 176,
+      "isActive": true,
+      "displayOrder": 100,
+      "tags": [
+        "splunk",
+        "regex",
+        "regular expressions"
+      ],
+      "totalCreditsRequired": 0,
+      "instructor": "Hailie Shaw",
+      "lessons": [
+        {
+          "id": "699ddc5b7c22f2576d8de666",
+          "title": "Regex Module 1",
+          "duration": 1,
+          "order": 1,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de667",
+          "title": "Regex Module 2",
+          "duration": 8,
+          "order": 2,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de668",
+          "title": "Regex Module 3",
+          "duration": 9,
+          "order": 3,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de669",
+          "title": "Regex Module 4",
+          "duration": 17,
+          "order": 4,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de66a",
+          "title": "Regex Module 5",
+          "duration": 5,
+          "order": 5,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de66b",
+          "title": "Regex Module 6",
+          "duration": 5,
+          "order": 6,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de66c",
+          "title": "Regex Module 7",
+          "duration": 7,
+          "order": 7,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de66d",
+          "title": "Regex Module 8",
+          "duration": 10,
+          "order": 8,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de66e",
+          "title": "Regex Module 9",
+          "duration": 11,
+          "order": 9,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de66f",
+          "title": "Regex Module 10",
+          "duration": 7,
+          "order": 10,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de670",
+          "title": "Regex Module 11",
+          "duration": 7,
+          "order": 11,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de671",
+          "title": "Regex Module 12",
+          "duration": 13,
+          "order": 12,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de672",
+          "title": "Regex Module 13",
+          "duration": 11,
+          "order": 13,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de673",
+          "title": "Regex Module 14",
+          "duration": 11,
+          "order": 14,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de674",
+          "title": "Regex Module 15",
+          "duration": 17,
+          "order": 15,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de675",
+          "title": "Regex Module 16",
+          "duration": 17,
+          "order": 16,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de676",
+          "title": "Regex Module 17",
+          "duration": 6,
+          "order": 17,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de677",
+          "title": "Regex Module 18",
+          "duration": 4,
+          "order": 18,
+          "isRequired": true
+        },
+        {
+          "id": "699ddc5b7c22f2576d8de678",
+          "title": "Regex Module 19",
+          "duration": 10,
+          "order": 19,
+          "isRequired": true
+        }
+      ],
+      "imageName": "Udemy - Thumbnail - Certified - Regular Expressions.png",
+      "imageType": "image/png",
+      "iapPrice": 4.99,
+      "price": 4.49,
+      "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/splunk-regex/image?v=1785189743059",
+      "sitemap_url": "https://ableversity.com/splunk-regular-expressions-training-course/",
+      "enroll_url": "https://ableu.ableversity.com/course/splunk-regex?coupon=Ableversity4Splunk"
+    }
+  ],
+  "mappings": {
+    "splunk-user": "splunk-fundamentals-1-online-training-course",
+    "splunk-power-user": "splunk-fundamentals-2-online-training-course",
+    "splunk-advanced-power-user": "splunk-fundamentals-3-online-training-course",
+    "splunk-admin": "splunk-enterprise-administrator-training-course",
+    "splunk-getting-data": "getting-data-into-splunk-training-course",
+    "splunk-fields": "splunk-fields-and-extractions-training-course",
+    "splunk-regex": "splunk-regular-expressions-training-course",
+    "splunk-enterprise-architect": "splunk-architect-training-course",
+    "why-splunk": "why-splunk-course",
+    "why-ableversity": "why-ableversity",
+    "splunk-basics": "intro-to-splunk-course",
+    "extending-splunk": "extending-splunk-developer-basics"
+  }
+}

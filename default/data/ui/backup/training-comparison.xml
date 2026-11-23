@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dashboard version="1.1" theme="dark" hideEdit="true">
+  <label>Training Comparison</label>
+
+  <row>
+    <panel>
+      <html>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--indigo:#4F46E5;--indigo-dark:#3730A3;--green-500:#10B981;--green-600:#059669;--red-500:#EF4444;--yellow-500:#F59E0B;--purple-500:#8B5CF6;--gray-50:#F9FAFB;--gray-100:#F3F4F6;--gray-200:#E5E7EB;--gray-300:#D1D5DB;--gray-400:#9CA3AF;--gray-500:#6B7280;--gray-600:#4B5563;--gray-700:#374151;--gray-800:#1F2937;--gray-900:#111827}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;background:#f1f5f9;color:#1e293b;line-height:1.6}
+.comparison-header{background:white;border-bottom:2px solid #e2e8f0;padding:20px 24px;display:flex;align-items:center;gap:16px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.comparison-header h1{font-size:20px;font-weight:700;color:#0f172a}
+.comparison-container{max-width:1400px;margin:24px auto;padding:0 20px}
+.comparison-table{width:100%;border-collapse:separate;border-spacing:0;background:white;border-radius:16px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.08)}
+.comparison-table th,.comparison-table td{padding:16px 12px;text-align:center;border-bottom:1px solid #f1f5f9;font-size:13px}
+.comparison-table th{background:linear-gradient(135deg,#4F46E5 0%,#3730A3 100%);color:white;font-weight:700;font-size:14px;position:sticky;top:0;white-space:nowrap}
+.comparison-table th:first-child{background:#f8fafc;color:#475569;text-align:left;font-size:14px;font-weight:600;position:sticky;left:0;min-width:180px}
+.comparison-table td:first-child{background:#f8fafc;font-weight:600;color:#374151;text-align:left;min-width:180px}
+.ableu-cell{background:#ECFDF5}
+.splunk-cell{background:#FEF2F2}
+.udemy-cell{background:#FFFBEB}
+.thm-cell{background:#F5F3FF}
+.ableu-highlight{font-weight:700;color:#059669;font-size:15px}
+.splunk-highlight{font-weight:700;color:#991B1B;font-size:15px}
+.udemy-highlight{font-weight:700;color:#92400E;font-size:15px}
+.thm-highlight{font-weight:700;color:#7C3AED;font-size:15px}
+.price-tag{font-size:11px;color:#64748b;margin-top:3px}
+.badge{display:inline-block;padding:3px 8px;border-radius:5px;font-size:11px;font-weight:600;margin:3px 2px}
+.badge-ableu{background:#10B981;color:white}
+.badge-splunk{background:#EF4444;color:white}
+.badge-udemy{background:#F59E0B;color:white}
+.badge-thm{background:#8B5CF6;color:white}
+.check-icon{color:#10B981;font-size:16px}
+.cross-icon{color:#EF4444;font-size:16px}
+.dot-icon{color:#9CA3AF;font-size:16px}
+.comparison-desc{font-size:12px;color:#64748b;line-height:1.5}
+.btn-back{display:inline-flex;align-items:center;gap:6px;color:var(--indigo);text-decoration:none;font-weight:600;margin-bottom:16px;font-size:14px}
+.btn-back:hover{text-decoration:underline}
+@media(max-width:1024px){.comparison-table{display:block;overflow-x:auto}.comparison-table th,.comparison-table td{min-width:200px}}
+</style>
+
+<div class="comparison-header">
+  <h1>Training Platform Comparison</h1>
+</div>
+
+<div class="comparison-container">
+  <a class="btn-back" href="/app/ableversity/main">&#8592; Back to Course Library</a>
+  
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th class="ableu-cell">AbleU</th>
+        <th class="splunk-cell">Official Brand</th>
+        <th class="udemy-cell">Udemy</th>
+        <th class="thm-cell">TryHackMe</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Course Pricing</td>
+        <td class="ableu-cell">
+          <div class="ableu-highlight">$9.99 - $14.99</div>
+          <div class="price-tag">Per course</div>
+        </td>
+        <td class="splunk-cell">
+          <div class="splunk-highlight">$500 - $1,500+</div>
+          <div class="price-tag">Per course</div>
+        </td>
+        <td class="udemy-cell">
+          <div class="udemy-highlight">$9.99 - $99.99+</div>
+          <div class="price-tag">Per course</div>
+        </td>
+        <td class="thm-cell">
+          <div class="thm-highlight">$14 - $20/month</div>
+          <div class="price-tag">Subscription</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Certification Exams</td>
+        <td class="ableu-cell">
+          <span class="check-icon">&#10003;</span>
+          <div style="font-weight:600;color:#065F46;margin-top:3px">Included</div>
+          <span class="badge badge-ableu">Ableversity Certified</span>
+        </td>
+        <td class="splunk-cell">
+          <span class="check-icon">&#10003;</span>
+          <div style="font-weight:600;color:#991B1B;margin-top:3px">Additional cost</div>
+          <div class="price-tag">$100+ per voucher</div>
+        </td>
+        <td class="udemy-cell">
+          <span class="cross-icon">&#10007;</span>
+          <div style="font-weight:600;color:#92400E;margin-top:3px">None</div>
+          <div class="price-tag">Quizzes only</div>
+        </td>
+        <td class="thm-cell">
+          <span class="cross-icon">&#10007;</span>
+          <div style="font-weight:600;color:#7C3AED;margin-top:3px">Completion badges</div>
+          <div class="price-tag">No industry certs</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Content Ownership</td>
+        <td class="ableu-cell">
+          <span class="check-icon">&#10003;</span>
+          <div style="font-weight:600;color:#065F46;margin-top:3px">Lifetime access</div>
+          <div class="price-tag">Keep forever</div>
+        </td>
+        <td class="splunk-cell">
+          <span class="dot-icon">&#8226;</span>
+          <div style="font-weight:600;color:#991B1B;margin-top:3px">One-time access</div>
+          <div class="price-tag">No ownership</div>
+        </td>
+        <td class="udemy-cell">
+          <span class="check-icon">&#10003;</span>
+          <div style="font-weight:600;color:#92400E;margin-top:3px">Lifetime access</div>
+          <div class="price-tag">Keep forever</div>
+        </td>
+        <td class="thm-cell">
+          <span class="cross-icon">&#10007;</span>
+          <div style="font-weight:600;color:#7C3AED;margin-top:3px">Subscription only</div>
+          <div class="price-tag">Lose access when unsubscribed</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Splunk Curriculum Alignment</td>
+        <td class="ableu-cell">
+          <span class="check-icon">&#10003;</span>
+          <div style="font-weight:600;color:#065F46;margin-top:3px">Perfectly aligned</div>
+          <div class="price-tag">Prepares for Splunk exams</div>
+        </td>
+        <td class="splunk-cell">
+          <span class="check-icon">&#10003;</span>
+          <div style="font-weight:600;color:#991B1B;margin-top:3px">Official curriculum</div>
+        </td>
+        <td class="udemy-cell">
+          <span class="dot-icon">&#8226;</span>
+          <div style="font-weight:600;color:#92400E;margin-top:3px">Varies by course</div>
+        </td>
+        <td class="thm-cell">
+          <span class="dot-icon">&#8226;</span>
+          <div style="font-weight:600;color:#7C3AED;margin-top:3px">Part of security paths</div>
+          <div class="price-tag">Not Splunk-focused</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Language Availability</td>
+        <td class="ableu-cell">
+          <span class="check-icon">&#10003;</span>
+          <div style="font-weight:600;color:#065F46;margin-top:3px">26 languages</div>
+          <div class="price-tag">Globally accessible</div>
+        </td>
+        <td class="splunk-cell">
+          <span class="dot-icon">&#8226;</span>
+          <div style="font-weight:600;color:#991B1B;margin-top:3px">Varies by instructor</div>
+        </td>
+        <td class="udemy-cell">
+          <span class="dot-icon">&#8226;</span>
+          <div style="font-weight:600;color:#92400E;margin-top:3px">Varies by instructor</div>
+        </td>
+        <td class="thm-cell">
+          <span class="dot-icon">&#8226;</span>
+          <div style="font-weight:600;color:#7C3AED;margin-top:3px">Primarily English</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Additional Resources</td>
+        <td class="ableu-cell">
+          <span class="check-icon">&#10003;</span>
+          <div style="font-weight:600;color:#065F46;margin-top:3px">Full library</div>
+          <div class="price-tag">News, job prep, research</div>
+        </td>
+        <td class="splunk-cell">
+          <span class="dot-icon">&#8226;</span>
+          <div style="font-weight:600;color:#991B1B;margin-top:3px">Limited extras</div>
+        </td>
+        <td class="udemy-cell">
+          <span class="dot-icon">&#8226;</span>
+          <div style="font-weight:600;color:#92400E;margin-top:3px">Course-specific only</div>
+        </td>
+        <td class="thm-cell">
+          <span class="check-icon">&#10003;</span>
+          <div style="font-weight:600;color:#7C3AED;margin-top:3px">Gamified labs</div>
+          <div class="price-tag">Broad security content</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Learning Style</td>
+        <td class="ableu-cell">
+          <div style="font-weight:600;color:#065F46">Video + Labs</div>
+          <div style="font-size:11px;color:#64748b;margin-top:3px">Expert-led courses</div>
+        </td>
+        <td class="splunk-cell">
+          <div style="font-weight:600;color:#991B1B">Video + Labs</div>
+          <div style="font-size:11px;color:#64748b;margin-top:3px">Official training</div>
+        </td>
+        <td class="udemy-cell">
+          <div style="font-weight:600;color:#92400E">Video only</div>
+          <div style="font-size:11px;color:#64748b;margin-top:3px">Self-paced</div>
+        </td>
+        <td class="thm-cell">
+          <div style="font-weight:600;color:#7C3AED">Gamified</div>
+          <div style="font-size:11px;color:#64748b;margin-top:3px">Interactive rooms</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Best For</td>
+        <td class="ableu-cell">
+          <div style="font-weight:600;color:#065F46">Value + Certs</div>
+          <div style="font-size:11px;color:#64748b;margin-top:3px">Career advancement</div>
+        </td>
+        <td class="splunk-cell">
+          <div style="font-weight:600;color:#991B1B">Official Brand</div>
+          <div style="font-size:11px;color:#64748b;margin-top:3px">Budget flexibility</div>
+        </td>
+        <td class="udemy-cell">
+          <div style="font-weight:600;color:#92400E">Casual Learning</div>
+          <div style="font-size:11px;color:#64748b;margin-top:3px">No cert needed</div>
+        </td>
+        <td class="thm-cell">
+          <div style="font-weight:600;color:#7C3AED">Gamified Learners</div>
+          <div style="font-size:11px;color:#64748b;margin-top:3px">Broader security skills</div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <div style="margin-top:24px;text-align:center">
+    <h3 style="font-size:18px;font-weight:700;color:#0f172a;margin-bottom:12px">Why Choose AbleU?</h3>
+    <p style="font-size:15px;color:#475569;max-width:800px;margin:0 auto;line-height:1.8">
+      Get certified affordably with courses that align perfectly with Splunk's curriculum. 
+      Join thousands of professionals who chose AbleU for career advancement without the premium price tag.
+    </p>
+    <div style="margin-top:20px">
+      <a style="background:#10B981;color:white;padding:12px 24px;border-radius:8px;font-weight:700;text-decoration:none;display:inline-block" href="https://ableu.ableversity.com" target="_blank">Start Your Journey</a>
+    </div>
+  </div>
+</div>
+
+
+  <div style="margin-top:32px;padding:20px;background:#f8fafc;border-radius:8px;border:1px solid #e2e8f0">
+    <p style="font-size:11px;color:#64748b;text-align:center;margin:0;line-height:1.6">
+      <strong>Disclaimer:</strong> All product names, logos, and brands are property of their respective owners. 
+      Splunk&#174; and related trademarks are registered trademarks of Splunk Inc. 
+      TryHackMe&#174; and Udemy&#174; are trademarks of their respective companies. 
+      This comparison is for informational purposes only and is not endorsed by any of the mentioned platforms. 
+      Ableversity&#174; and AbleU&#174; are trademarks of Ableversity Incorporated.
+    </p>
+  </div>
+
+
+    </html>
+    </panel>
+  </row>
+</dashboard>

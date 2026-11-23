@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dashboard version="1.1" theme="dark" hideEdit="true">
+  <label>Fundamentals 3</label>
+  <search>
+    <query>| rest /services/authentication/current-context  | eval email=if(email=="",username,email) | table email</query>
+    <earliest>-1m</earliest>
+    <latest>now</latest>
+    <done>
+      <set token="userEmail">$result.email$</set>
+    </done>
+  </search>
+
+  <row>
+    <panel>
+      <html>
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--indigo:#4F46E5;--indigo-dark:#3730A3;--indigo-light:#EEF2FF;--gray-50:#F9FAFB;--gray-100:#F3F4F6;--gray-200:#E5E7EB;--gray-300:#D1D5DB;--gray-400:#9CA3AF;--gray-500:#6B7280;--gray-600:#4B5563;--gray-700:#374151;--gray-800:#1F2937;--gray-900:#111827;--green-500:#10B981;--green-600:#059669}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;background:#f1f5f9;color:#1e293b;line-height:1.5}
+.ab-header{background:white;border-bottom:2px solid #e2e8f0;padding:16px 20px;display:flex;align-items:center;gap:12px}
+.ab-header img{height:32px;width:auto;border-radius:6px;background:white;padding:3px}
+.ab-header h1{font-size:16px;font-weight:700;color:#0f172a}
+.ab-header p{font-size:11px;color:#475569;margin-top:1px}
+.ab-container{max-width:1200px;margin:0 auto;padding:20px}
+.ab-hero{background:white;border-radius:16px;padding:30px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,.08);display:flex;gap:24px;align-items:start}
+.ab-hero-img{width:200px;height:200px;border-radius:12px;object-fit:cover;background:var(--gray-100);flex-shrink:0}
+.ab-hero-ph{width:200px;height:200px;background:linear-gradient(135deg,var(--indigo-light),#E0E7FF);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:64px;flex-shrink:0;display:none}
+.ab-hero-content{flex:1;min-width:0}
+.ab-hero-title{font-size:28px;font-weight:700;color:#0f172a;margin-bottom:12px;line-height:1.3}
+.ab-hero-instructor{font-size:14px;color:#475569;margin-bottom:8px}
+.ab-hero-meta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:16px;font-size:13px;color:#475569}
+.ab-hero-meta span{display:flex;align-items:center;gap:4px}
+.ab-hero-desc{font-size:15px;color:#374151;line-height:1.6;margin-bottom:20px}
+.ab-hero-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
+.ab-tag{font-size:11px;padding:3px 8px;border-radius:6px;font-weight:500}
+.ab-tag-beginner{background:#D1FAE5;color:#065F46}
+.ab-tag-intermediate{background:#FEF3C7;color:#92400E}
+.ab-tag-advanced{background:#FEE2E2;color:#991B1B}
+.ab-hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.ab-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 20px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;cursor:pointer;border:none;transition:all .15s;gap:6px}
+.ab-btn-primary{background:var(--indigo);color:white}.ab-btn-primary:hover{background:var(--indigo-dark)}
+.ab-btn-green{background:var(--green-500);color:white}.ab-btn-green:hover{background:var(--green-600)}
+.ab-btn-outline{background:white;color:#374151;border:2px solid #D1D5DB}.ab-btn-outline:hover{background:#F9FAFB}
+.ab-section{background:white;border-radius:16px;padding:24px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.ab-section-title{font-size:20px;font-weight:700;color:#0f172a;margin-bottom:16px;padding-bottom:12px;border-bottom:2px solid #f1f5f9}
+.ab-lessons{list-style:none}
+.ab-lesson{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid #f1f5f9}
+.ab-lesson:last-child{border-bottom:none}
+.ab-lesson-num{width:32px;height:32px;background:var(--indigo-light);color:var(--indigo);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;flex-shrink:0}
+.ab-lesson-title{flex:1;font-weight:600;color:#1e293b}
+.ab-lesson-duration{font-size:12px;color:#64748b}
+.ab-back{display:inline-flex;align-items:center;gap:6px;color:var(--indigo);text-decoration:none;font-weight:600;margin-bottom:16px}
+.ab-back:hover{text-decoration:underline}
+@media(max-width:768px){.ab-hero{flex-direction:column}.ab-hero-img,.ab-hero-ph{width:100%;height:160px}}
+
+</style>
+<div id="ab-app">
+<div class="ab-header">
+  <span class="ab-logo"><img src="/en-US/static/app/ableversity/logo.png" alt="Ableversity" style="height:32px;width:auto" onerror="this.style.display='none'"/></span>
+  <div><h1>Ableversity Training</h1><p>Expert-led Splunk courses</p></div>
+</div>
+<div class="ab-container">
+  <a class="ab-back" href="/app/ableversity/main">&#8592; Back to Course List</a>
+  
+  <div class="ab-hero">
+    <img class="ab-hero-img" src="/en-US/static/app/ableversity/images/splunk-advanced-power-user.png" alt="Fundamentals 3" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+<div class="ab-hero-ph">&#128218;</div>
+    <div class="ab-hero-content">
+      <h2 class="ab-hero-title">Fundamentals 3</h2>
+      <div class="ab-hero-instructor">Instructor: Hailie Shaw</div>
+      <div class="ab-hero-meta">
+        <span>&#128197; 122 minutes total</span>
+        <span>&#128218; 9 lessons</span>
+        <span>&#127891; Intermediate</span>
+      </div>
+      <div class="ab-hero-tags">
+        <span class="ab-tag ab-tag-intermediate">beginner</span><span class="ab-tag ab-tag-intermediate">splunk-advanced-power-user</span><span class="ab-tag ab-tag-intermediate">intermediate</span><span class="ab-tag ab-tag-intermediate">splunk-power-user</span>
+        <span class="ab-tag" style="background:#D1FAE5;color:#065F46;font-size:13px;padding:4px 10px">$8.99</span>
+      </div>
+      <p class="ab-hero-desc">Ableversity&#x27;s Splunk Fundamentals 3: Advance to Enterprise Administration Excellence
+
+Built on Splunk 9.x — covering the same core skills and search language that power every version of Splunk.
+
+Transform from power user to enterprise administrator with expert-level training developed under the guid...</p>
+      <div class="ab-hero-actions">
+        <a class="ab-btn ab-btn-green" href="https://ableu.ableversity.com/course/splunk-advanced-power-user?coupon=Ableversity4SplunkAppGeneric&amp;email=$userEmail$" target="_blank" rel="noopener">&#127891; Enroll Now (Coupon Applied)</a>
+        <a class="ab-btn ab-btn-outline" href="https://ableversity.com/splunk-fundamentals-3-online-training-course/?email=$userEmail$" target="_blank" rel="noopener">View Details &#8599;</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="ab-section">
+    <h3 class="ab-section-title">What You'll Learn</h3>
+    <ul class="ab-lessons">
+      <li class="ab-lesson">
+          <div class="ab-lesson-num">1</div>
+          <div class="ab-lesson-title">Fundamentals 3 Module 1</div>
+          <div class="ab-lesson-duration">2 min</div>
+        </li><li class="ab-lesson">
+          <div class="ab-lesson-num">2</div>
+          <div class="ab-lesson-title">Fundamentals 3 Module 2</div>
+          <div class="ab-lesson-duration">22 min</div>
+        </li><li class="ab-lesson">
+          <div class="ab-lesson-num">3</div>
+          <div class="ab-lesson-title">Fundamentals 3 Module 3</div>
+          <div class="ab-lesson-duration">3 min</div>
+        </li><li class="ab-lesson">
+          <div class="ab-lesson-num">4</div>
+          <div class="ab-lesson-title">Fundamentals 3 Module 4</div>
+          <div class="ab-lesson-duration">9 min</div>
+        </li><li class="ab-lesson">
+          <div class="ab-lesson-num">5</div>
+          <div class="ab-lesson-title">Fundamentals 3 Module 5</div>
+          <div class="ab-lesson-duration">10 min</div>
+        </li><li class="ab-lesson">
+          <div class="ab-lesson-num">6</div>
+          <div class="ab-lesson-title">Fundamentals 3 Module 6</div>
+          <div class="ab-lesson-duration">12 min</div>
+        </li><li class="ab-lesson">
+          <div class="ab-lesson-num">7</div>
+          <div class="ab-lesson-title">Fundamentals 3 Module 7</div>
+          <div class="ab-lesson-duration">22 min</div>
+        </li><li class="ab-lesson">
+          <div class="ab-lesson-num">8</div>
+          <div class="ab-lesson-title">Fundamentals 3 Module 8</div>
+          <div class="ab-lesson-duration">23 min</div>
+        </li><li class="ab-lesson">
+          <div class="ab-lesson-num">9</div>
+          <div class="ab-lesson-title">Fundamentals 3 Module 9</div>
+          <div class="ab-lesson-duration">19 min</div>
+        </li>
+    </ul>
+  </div>
+  
+  <div class="ab-section">
+    <h3 class="ab-section-title">Why Take This Course?</h3>
+    <p style="color:#374151;line-height:1.8;margin-bottom:16px">
+      This course is designed to take you from intermediate to proficient with hands-on instruction 
+      from industry experts. Follows the official Splunk certification blueprint and prepares you 
+      for real-world scenarios.
+    </p>
+    <p style="color:#374151;line-height:1.8">
+      <strong>Key Benefits:</strong>
+    </p>
+    <ul style="color:#374151;line-height:1.8;margin-left:20px;margin-top:8px">
+      <li>Expert-led instruction with real-world examples</li>
+      <li>Hands-on labs with actual Splunk environments</li>
+      <li>Certification exam preparation</li>
+      <li>Lifetime access to course materials</li>
+      <li>Community support and networking</li>
+    </ul>
+  </div>
+  
+  <div class="ab-section" style="text-align:center">
+    <h3 class="ab-section-title" style="border:none;padding:0;margin-bottom:12px">Ready to Start?</h3>
+    <p style="color:#64748b;margin-bottom:20px">
+      Use coupon <strong>Ableversity4SplunkAppGeneric</strong> for exclusive discounts!
+    </p>
+    <a class="ab-btn ab-btn-green" style="font-size:16px;padding:12px 32px" href="https://ableu.ableversity.com/course/splunk-advanced-power-user?coupon=Ableversity4SplunkAppGeneric&amp;email=$userEmail$" target="_blank" rel="noopener">&#127891; Enroll Now - Fundamentals 3</a>
+  </div>
+</div>
+
+  <div style="margin-top:32px;padding:20px;background:#f8fafc;border-radius:8px;border:1px solid #e2e8f0">
+    <p style="font-size:11px;color:#64748b;text-align:center;margin:0;line-height:1.6">
+      <strong>Disclaimer:</strong> All product names, logos, and brands are property of their respective owners. 
+      Splunk&#174; and related trademarks are registered trademarks of Splunk Inc. 
+      TryHackMe&#174; and Udemy&#174; are trademarks of their respective companies. 
+      This comparison is for informational purposes only and is not endorsed by any of the mentioned platforms. 
+      Ableversity&#174; and AbleU&#174; are trademarks of Ableversity Incorporated.
+    </p>
+  </div>
+</div>
+      </html>
+    </panel>
+  </row>
+</dashboard>
