@@ -1206,7 +1206,7 @@
       "iapPrice": 4.99,
       "price": 4.49,
       "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/splunk-getting-data/image?v=1785189743059",
-      "sitemap_url": "https://ableversity.com/getting-data-into-splunk-training-course/",
+      "sitemap_url": "https://ableversity.com/getting-data-in-online-splunk-training-course/",
       "enroll_url": "https://ableu.ableversity.com/course/splunk-getting-data?coupon=Ableversity4Splunk"
     },
     {
@@ -1281,7 +1281,7 @@
       "iapPrice": 4.99,
       "price": 4.49,
       "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/splunk-fields/image?v=1785189743059",
-      "sitemap_url": "https://ableversity.com/splunk-fields-and-extractions-training-course/",
+      "sitemap_url": "https://ableversity.com/fields-extractions-online-splunk-training-course/",
       "enroll_url": "https://ableu.ableversity.com/course/splunk-fields?coupon=Ableversity4Splunk"
     },
     {
@@ -1440,7 +1440,7 @@
       "iapPrice": 4.99,
       "price": 4.49,
       "imageUrl": "https://training-hub.ableversity.com:3000/api/courses/splunk-regex/image?v=1785189743059",
-      "sitemap_url": "https://ableversity.com/splunk-regular-expressions-training-course/",
+      "sitemap_url": "https://ableversity.com/regular-expressions-from-beginning-to-end-splunk-online-training-course/",
       "enroll_url": "https://ableu.ableversity.com/course/splunk-regex?coupon=Ableversity4Splunk"
     }
   ],
@@ -1449,9 +1449,9 @@
     "splunk-power-user": "splunk-fundamentals-2-online-training-course",
     "splunk-advanced-power-user": "splunk-fundamentals-3-online-training-course",
     "splunk-admin": "splunk-enterprise-administrator-training-course",
-    "splunk-getting-data": "getting-data-into-splunk-training-course",
-    "splunk-fields": "splunk-fields-and-extractions-training-course",
-    "splunk-regex": "splunk-regular-expressions-training-course",
+    "splunk-getting-data": "getting-data-in-online-splunk-training-course",
+    "splunk-fields": "fields-extractions-online-splunk-training-course",
+    "splunk-regex": "regular-expressions-from-beginning-to-end-splunk-online-training-course",
     "splunk-enterprise-architect": "splunk-architect-training-course",
     "why-splunk": "why-splunk-course",
     "why-ableversity": "why-ableversity",
